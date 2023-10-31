@@ -41,14 +41,14 @@
       }
     }
     .btn-more {
-      color: var(--secondary);
+      color: var(--primary);
       background: var(--tertiary);
       transition: all 0.3s linear;
       border-radius: var(--mint-border-radius);
       text-transform: uppercase;
       border: 1px solid var(--tertiary);
       &:hover {
-        color: var(--secondary);
+        color: var(--primary);
         background: var(--tertiary-hover);
       }
     }
@@ -75,8 +75,8 @@
 .navigation-topics {
   .container.list-container {
     border-radius: var(--mint-border-radius);
-    box-shadow: 0 8px 60px 0 rgba(103, 151, 255, 0.1),
-      0 12px 90px 0 rgba(133, 255, 103, 0.1);
+    box-shadow: 0 8px 60px 0 rgba(155, 67, 238, 0.1),
+      0 12px 90px 0 rgba(155, 67, 238, 0.1);
     padding: 2em;
     @include mint-card-bg;
     border-top: 8px solid var(--tertiary);
@@ -149,23 +149,23 @@ a {
 }
 
 #create-topic {
-  color: var(--secondary);
+  color: var(--primary);
   background: var(--tertiary);
   transition: all 0.3s linear;
   border-radius: var(--mint-border-radius);
   text-transform: uppercase;
   border: 2px solid var(--tertiary);
   .fa {
-    color: var(--secondary);
+    color: var(--primary);
   }
   &:hover {
     background: var(--tertiary);
-    color: var(--secondary);
+    color: var(--primary);
     box-shadow: var(--mint-hover-shadow);
     transition: all 0.3s linear;
     border-radius: var(--mint-border-radius);
     .fa {
-      color: var(--secondary);
+      color: var(--primary);
     }
   }
 }
@@ -198,7 +198,7 @@ a {
   }
   &:hover {
     background: var(--tertiary);
-    color: var(--secondary);
+    color: var(--primary);
   }
 }
 
@@ -225,11 +225,11 @@ a {
   background: var(--tertiary);
   border-radius: var(--mint-border-radius);
   border: 1px solid var(--tertiary);
-  color: var(--secondary);
+  color: var(--primary);
   svg {
-    color: var(--secondary);
+    color: var(--primary);
     &:hover {
-      color: var(--secondary);
+      color: var(--primary);
     }
   }
 }
@@ -245,7 +245,7 @@ a {
     color: currentColor;
   }
   &:hover {
-    color: var(--secondary);
+    color: var(--primary);
     background: var(--tertiary-hover);
     border: 1px solid var(--tertiary-hover);
     border-radius: 5px;
@@ -259,11 +259,11 @@ a {
 
 .discourse-no-touch .btn:not(.btn-flat):hover,
 .discourse-no-touch .btn:not(.btn-flat).btn-hover {
-  color: var(--secondary);
+  color: var(--primary);
   background: var(--tertiary-hover);
   border-radius: 5px;
   .fa {
-    color: var(--secondary);
+    color: var(--primary);
   }
 }
 
@@ -275,14 +275,14 @@ a {
 }
 
 .btn-default {
-  color: var(--secondary);
+  color: var(--primary);
   background: var(--tertiary);
   transition: all 0.3s linear;
   border-radius: var(--mint-border-radius);
   text-transform: uppercase;
   border: 1px solid var(--tertiary);
   .fa {
-    color: var(--secondary);
+    color: var(--primary);
   }
 }
 
@@ -320,7 +320,7 @@ a:hover {
 .image-upload-controls .btn-default {
   border: 1px solid var(--secondary);
   .fa {
-    color: var(--secondary);
+    color: var(--primary);
   }
 }
 
@@ -329,7 +329,7 @@ a:hover {
 .admin-container {
   .nav-pills > li a.active {
     background: var(--tertiary);
-    color: var(--secondary);
+    color: var(--primary);
   }
   .btn-primary {
     border-radius: var(--mint-border-radius);
@@ -351,7 +351,7 @@ a:hover {
 }
 
 .btn[href] {
-  color: var(--secondary);
+  color: var(--primary);
 }
 
 summary.select-kit-header.single-select-header.dropdown-select-box-header {
@@ -361,7 +361,7 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 .search-container .search-advanced-sidebar {
   .search-advanced-title {
     background: var(--tertiary);
-    color: var(--secondary);
+    color: var(--primary);
   }
   .search-advanced-filters {
     border: 1px dashed var(--tertiary);
