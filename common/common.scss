@@ -75,8 +75,8 @@
 .navigation-topics {
   .container.list-container {
     border-radius: var(--mint-border-radius);
-    box-shadow: 0 8px 60px 0 rgba(155, 67, 238, 0.1),
-      0 12px 90px 0 rgba(155, 67, 238, 0.1);
+    box-shadow: 0 8px 60px 0 rgba(200, 0, 1, 0.1),
+      0 12px 90px 0 rgba(200, 0, 1, 0.1);
     padding: 2em;
     @include mint-card-bg;
     border-top: 8px solid var(--tertiary);
